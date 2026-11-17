@@ -1,23 +1,19 @@
 {
-  "versionName": "1.2.00",
-  "versionCode": 10200,
-  "apk": "releases/term0-1.2.00.apk",
-  "sha256": "211ca4a77165d5789b667600138a6665023569addc0eeb5cc1fd408da26bc396",
-  "size": 5708564,
+  "versionName": "1.3.00",
+  "versionCode": 10300,
+  "apk": "releases/term0-1.3.00.apk",
+  "sha256": "2f33cd35178289d8f708c5e79cd815414b2fe78f5719a4245ef088f3ceb9baaf",
+  "size": 5712048,
   "changes": {
     "hr": [
-      "potvrda za pošiljatelja: kasnije provjeriš je li kapsula otvorena, uništena ili istekla",
-      "proof-of-work: svaki pokušaj otvaranja traži malo računanja, što usporava napade na mnogo kapsula",
-      "opcija prikaza poruke samo dok držiš prst",
-      "kodovi kapsula bez lozinke više ne idu kroz kapsula:// linkove",
-      "obvezno ažuriranje: starije verzije ne rade s novim serverom"
+      "Tor način: u postavkama sav promet može ići kroz Orbot, pa server ne vidi tvoju IP adresu",
+      "u Tor načinu nema DNS upita s mobitela ni povratka na izravnu vezu ako Orbot ne radi",
+      "prikaz veze u postavkama pokazuje radi li Orbot"
     ],
     "en": [
-      "sender receipt: check later whether a capsule was opened, destroyed or expired",
-      "proof of work: every attempt to open costs a little computing, slowing attacks on many capsules",
-      "option to show a message only while holding a finger on it",
-      "codes of capsules without a password no longer travel in kapsula:// links",
-      "mandatory update: older versions do not work with the new server"
+      "Tor mode: settings can send all traffic through Orbot, so the server does not see your IP address",
+      "in Tor mode the phone makes no DNS lookups and never falls back to a direct connection if Orbot is down",
+      "the uplink line in settings shows whether Orbot is running"
     ]
   }
 }
