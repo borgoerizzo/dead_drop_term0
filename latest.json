@@ -1,19 +1,23 @@
 {
-  "versionName": "1.0.04",
-  "versionCode": 10004,
-  "apk": "releases/term0-1.0.04.apk",
-  "sha256": "98fc1165042b1cffabd5ff2e050f934b82dcee535e52962c9f8128b6f6b9e745",
-  "size": 5699784,
+  "versionName": "1.2.00",
+  "versionCode": 10200,
+  "apk": "releases/term0-1.2.00.apk",
+  "sha256": "211ca4a77165d5789b667600138a6665023569addc0eeb5cc1fd408da26bc396",
+  "size": 5708564,
   "changes": {
     "hr": [
-      "prvo izdanje potpisano vlastitim ključem",
-      "aplikacija sama provjerava nove verzije i nudi preuzimanje",
-      "kapsule bez lozinke, učitavanje QR koda iz galerije, animacije šifriranja i uništenja"
+      "potvrda za pošiljatelja: kasnije provjeriš je li kapsula otvorena, uništena ili istekla",
+      "proof-of-work: svaki pokušaj otvaranja traži malo računanja, što usporava napade na mnogo kapsula",
+      "opcija prikaza poruke samo dok držiš prst",
+      "kodovi kapsula bez lozinke više ne idu kroz kapsula:// linkove",
+      "obvezno ažuriranje: starije verzije ne rade s novim serverom"
     ],
     "en": [
-      "first release signed with its own key",
-      "the app checks for new versions and offers to download them",
-      "capsules without a password, QR codes from the gallery, encryption and destruction animations"
+      "sender receipt: check later whether a capsule was opened, destroyed or expired",
+      "proof of work: every attempt to open costs a little computing, slowing attacks on many capsules",
+      "option to show a message only while holding a finger on it",
+      "codes of capsules without a password no longer travel in kapsula:// links",
+      "mandatory update: older versions do not work with the new server"
     ]
   }
 }
